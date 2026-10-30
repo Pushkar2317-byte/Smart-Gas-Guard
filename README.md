@@ -52,6 +52,25 @@ Load Cell ── HX711 ├──> ESP32 ──> Wi-Fi ──> Cloud / Notificati
                    └──> Motorized Ball Valve
 ```
 
+## Arduino Pin Management
+
+The following table shows how the Smart Gas Guard components are connected to the Arduino Uno.
+
+| MQ-2 Gas Sensor (AO) | A0 |
+| LCD (SDA) | A4 |
+| LCD (SCL) | A5 |
+| HX711 (DT/DOUT) | D3 |
+| HX711 (SCK) | D2 |
+| Green LED | D4 |
+| Red LED | D5 |
+| White LED | D6 |
+| Relay Module (IN) | D7 |
+| Buzzer | D8 |
+
+### Power Connections
+- **VCC:** 5V (where required)
+- **GND:** Common GND shared by the components
+
 ## Project Goals
 
 - Improve LPG safety in kitchens.
