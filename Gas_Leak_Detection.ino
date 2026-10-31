@@ -8,7 +8,7 @@ int buzzerPin = 8;
 int relayPin = 7;
 
 int gasValue;
-int threshold = 500;
+int threshold = 400;
 
 void setup() {
   pinMode(mq2Pin, INPUT);
